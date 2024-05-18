@@ -1,0 +1,95 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0": {
+      "PaymentsContext.Shared/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/PaymentsContext.Shared.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PaymentsContext.Shared.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "PaymentsContext.Shared/1.0.0": {
+      "type": "project",
+      "path": "../PaymentsContext.Shared/PaymentsContext.Shared.csproj",
+      "msbuildProject": "../PaymentsContext.Shared/PaymentsContext.Shared.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0": [
+      "PaymentsContext.Shared >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "/Users/mizaeldouglasmello/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/Users/mizaeldouglasmello/Programação/WorkSpace-DotNet/Balta/curso-balta.io/ModelandoDominiosRicos/PaymentsContext/PaymentsContext.Domain/PaymentsContext.Domain.csproj",
+      "projectName": "PaymentsContext.Domain",
+      "projectPath": "/Users/mizaeldouglasmello/Programação/WorkSpace-DotNet/Balta/curso-balta.io/ModelandoDominiosRicos/PaymentsContext/PaymentsContext.Domain/PaymentsContext.Domain.csproj",
+      "packagesPath": "/Users/mizaeldouglasmello/.nuget/packages/",
+      "outputPath": "/Users/mizaeldouglasmello/Programação/WorkSpace-DotNet/Balta/curso-balta.io/ModelandoDominiosRicos/PaymentsContext/PaymentsContext.Domain/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/Users/mizaeldouglasmello/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0"
+      ],
+      "sources": {
+        "/usr/local/share/dotnet/library-packs": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "projectReferences": {
+            "/Users/mizaeldouglasmello/Programação/WorkSpace-DotNet/Balta/curso-balta.io/ModelandoDominiosRicos/PaymentsContext/PaymentsContext.Shared/PaymentsContext.Shared.csproj": {
+              "projectPath": "/Users/mizaeldouglasmello/Programação/WorkSpace-DotNet/Balta/curso-balta.io/ModelandoDominiosRicos/PaymentsContext/PaymentsContext.Shared/PaymentsContext.Shared.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      }
+    },
+    "frameworks": {
+      "net8.0": {
+        "targetAlias": "net8.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.201/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

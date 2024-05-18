@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "PaymentsContext.Domain/1.0.0": {
+        "dependencies": {
+          "PaymentsContext.Shared": "1.0.0"
+        },
+        "runtime": {
+          "PaymentsContext.Domain.dll": {}
+        }
+      },
+      "PaymentsContext.Shared/1.0.0": {
+        "runtime": {
+          "PaymentsContext.Shared.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "PaymentsContext.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "PaymentsContext.Shared/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
