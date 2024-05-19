@@ -7,4 +7,6 @@ public class Subscription
   public DateTime? ExpireDate { get; set; }
 
   public bool Active { get; set; }
+
+  public List<Payment> Payments { get; set; }
 }
