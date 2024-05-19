@@ -13,3 +13,4 @@
 /Users/mizaeldouglasmello/Programação/WorkSpace-DotNet/Balta/curso-balta.io/ModelandoDominiosRicos/PaymentsContext/PaymentsContext.Domain/bin/Debug/net8.0/PaymentsContext.Shared.pdb
 /Users/mizaeldouglasmello/Programação/WorkSpace-DotNet/Balta/curso-balta.io/ModelandoDominiosRicos/PaymentsContext/PaymentsContext.Domain/obj/Debug/net8.0/PaymentsContext.Domain.csproj.AssemblyReference.cache
 /Users/mizaeldouglasmello/Programação/WorkSpace-DotNet/Balta/curso-balta.io/ModelandoDominiosRicos/PaymentsContext/PaymentsContext.Domain/obj/Debug/net8.0/Payments.90FFDA19.Up2Date
+/Users/mizaeldouglasmello/Programação/WorkSpace-DotNet/Balta/curso-balta.io/ModelandoDominiosRicos/PaymentsContext/PaymentsContext.Domain/obj/Debug/net8.0/PaymentsContext.Domain.sourcelink.json
