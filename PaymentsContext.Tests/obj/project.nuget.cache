@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "a9B7RQEE3syFMadq8sLQTHrWsk0RKRb0nkq+KxFvV8lvnuyznbUT3VHtX+xh1leMnauo8cRtrRnuSfRusMF0Hg==",
+  "dgSpecHash": "ejo/zvL47FiIh1RKkKGLvTrqQGizf3C4YNagPOre/lTgiFe0ovLBCYSrxr4QynzGNZAaAyljzo5UPtD0bJFetw==",
   "success": true,
-  "projectFilePath": "/Users/mizaeldouglasmello/Programação/WorkSpace-DotNet/Balta/curso-balta.io/ModelandoDominiosRicos/PaymentsContext/PaymentsContext.Tests/PaymentsContext.Tests.csproj",
+  "projectFilePath": "/Users/mizaeldouglasmello/Programação/WorkSpace-DotNet/Balta/curso-balta.io/ModelandoDominiosRicos/PaymentsContext/PaymentsContext.Tests/PaymentsContext.Tests.csproj",
   "expectedPackageFiles": [
     "/Users/mizaeldouglasmello/.nuget/packages/coverlet.collector/6.0.0/coverlet.collector.6.0.0.nupkg.sha512",
     "/Users/mizaeldouglasmello/.nuget/packages/flunt/2.0.5/flunt.2.0.5.nupkg.sha512",

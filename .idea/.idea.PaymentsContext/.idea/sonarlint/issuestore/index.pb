@@ -27,3 +27,15 @@ d
 4PaymentsContext.Shared/PaymentsContext.Shared.csproj,7/c/7ca65ca692528ca2d0e772949b3d1bb4c7f0ba98
 ~
 NPaymentsContext.Shared/obj/Debug/net8.0/PaymentsContext.Shared.AssemblyInfo.cs,0/b/0b29577c46c12a4b3e2493056a1b59a4543e7694
+Z
+*PaymentsContext.Domain/Entities/Payment.cs,8/2/824cd7dc85a7aa7523a0be7d084de81148ba8383
+\
+,PaymentsContext.Domain/ValueObjects/Email.cs,1/8/1832a928145474cb5c8c73acce99b1a7a2df8ae7
+`
+0PaymentsContext.Domain/ValueObjects/Documents.cs,a/1/a181083a0c2e8f002491afbfa48d5e3cd9f39e1e
+^
+.PaymentsContext.Domain/ValueObjects/Address.cs,4/3/43fbbd053cd807ac0234d84e5a47d15f735e6f69
+_
+/PaymentsContext.Domain/Entities/Subscription.cs,7/d/7db709cae09024a58d18fcb8412b2536426846b8
+`
+0PaymentsContext.Domain/Entities/PayPalPayment.cs,f/0/f09b52e9d2537f819913797fbca24d50082558c1

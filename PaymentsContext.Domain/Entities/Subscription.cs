@@ -1,6 +1,9 @@
+using Flunt.Validations;
+using PaymentsContext.Shared.Entities;
+
 namespace PaymentsContext.Domain.Entities;
 
-public class Subscription
+public class Subscription : Entity
 {
   private IList<Payment> _payments;
   public Subscription(DateTime? expireDate)
@@ -22,6 +25,17 @@ public class Subscription
 
   public void AddPayment(Payment payment)
   {
+    AddNotifications(new Contract<Subscription>()
+      .Requires()
+      .IsGreaterThan(payment.PaidDate, DateTime.Now, "Subscription.Payments", "A data do pagamento deve ser futura")
+      .IsGreaterThan(payment.ExpireDate, DateTime.Now, "Subscription.Payments", "A data de expiração deve ser futura")
+      .IsGreaterOrEqualsThan(payment.Total, 0, "Subscription.Payments", "O total deve ser maior que zero")
+      .IsGreaterOrEqualsThan(payment.TotalPaid, payment.Total, "Subscription.Payments", "O valor pago é menor que o valor do pagamento")
+      .IsNotNull(payment.Payer, "Subscription.Payments", "Pagador inválido")
+      .IsNotNull(payment.Document, "Subscription.Payments", "Documento inválido")
+      .IsNotNull(payment.Address, "Subscription.Payments", "Endereço inválido")
+      .IsNotNull(payment.Email, "Subscription.Payments", "E-mail inválido")
+    );
     _payments.Add(payment);
   }
 

@@ -1039,12 +1039,12 @@
     "PaymentsContext.Domain/1.0.0": {
       "type": "project",
       "path": "../PaymentsContext.Domain/PaymentsContext.Domain.csproj",
-      "msbuildProject": "../PaymentsContext.Domain/PaymentsContext.Domain.csproj"
+      "msbuildProject": "../../../../../../../Programação/WorkSpace-DotNet/Balta/curso-balta.io/ModelandoDominiosRicos/PaymentsContext/PaymentsContext.Domain/PaymentsContext.Domain.csproj"
     },
     "PaymentsContext.Shared/1.0.0": {
       "type": "project",
       "path": "../PaymentsContext.Shared/PaymentsContext.Shared.csproj",
-      "msbuildProject": "../PaymentsContext.Shared/PaymentsContext.Shared.csproj"
+      "msbuildProject": "../../../../../../../Programação/WorkSpace-DotNet/Balta/curso-balta.io/ModelandoDominiosRicos/PaymentsContext/PaymentsContext.Shared/PaymentsContext.Shared.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -1097,11 +1097,6 @@
         "warnAsError": [
           "NU1605"
         ]
-      },
-      "restoreAuditProperties": {
-        "enableAudit": "true",
-        "auditLevel": "low",
-        "auditMode": "direct"
       }
     },
     "frameworks": {
