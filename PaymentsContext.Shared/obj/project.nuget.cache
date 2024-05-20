@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "Ehg/ywV7RK0XpP43XkhibooBgcpFd4pZ8nVwQXpi7BJBUZ/qcnEAN1enGcrRX1W/JYdmbMuKaAggebhCAltkUg==",
+  "dgSpecHash": "r7IRJcrFQWw0xLGBrA7ic7GxeIVdnjri6rRVMeDRssTM1AVQXjCcGKbjVPPKbtcsebU6X4hOsywIh4fSrjQtZw==",
   "success": true,
-  "projectFilePath": "/Users/mizaeldouglasmello/Programação/WorkSpace-DotNet/Balta/curso-balta.io/ModelandoDominiosRicos/PaymentsContext/PaymentsContext.Shared/PaymentsContext.Shared.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "/Users/mizaeldouglasmello/Programação/WorkSpace-DotNet/Balta/curso-balta.io/ModelandoDominiosRicos/PaymentsContext/PaymentsContext.Shared/PaymentsContext.Shared.csproj",
+  "expectedPackageFiles": [
+    "/Users/mizaeldouglasmello/.nuget/packages/flunt/2.0.5/flunt.2.0.5.nupkg.sha512"
+  ],
   "logs": []
 }

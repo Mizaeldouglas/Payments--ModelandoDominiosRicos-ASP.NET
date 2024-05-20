@@ -37,16 +37,17 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Flunt": {
+              "target": "Package",
+              "version": "[2.0.5, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -96,16 +97,17 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Flunt": {
+              "target": "Package",
+              "version": "[2.0.5, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

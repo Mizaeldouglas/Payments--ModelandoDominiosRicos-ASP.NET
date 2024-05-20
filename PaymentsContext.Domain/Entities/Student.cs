@@ -5,31 +5,39 @@ namespace PaymentsContext.Domain.Entities;
 
 public class Student : Entity
 {
-  private IList<Subscription> _subscription;
-  public Student(Name name, Documents document, Email email)
-  {
-    Name = name;
-    Document = document;
-    Email = email;
-    _subscription = new List<Subscription>();
-  }
+    private IList<Subscription> _subscription;
+    private IList<string> _notifications;
 
-  public Name Name { get; private set; }
-  public Documents Document { get; set; }
-  public Email Email { get; private set; }
-  public Address Address { get; private set; }
-  public IReadOnlyCollection<Subscription> Subscriptions { get { return _subscription.ToArray(); } }
-
-
-  public void Addsubscription(Subscription subscription)
-  {
-    // se tiver uma assinatura ativa , cancela
-
-    //cancela todas as outras assinatura, e coloca esta como principal
-    foreach (var sub in Subscriptions)
+    public Student(Name name, Documents document, Email email)
     {
-      sub.Inactivate();
+        Name = name;
+        Document = document;
+        Email = email;
+        _subscription = new List<Subscription>();
+        AddNotifications(name, document, email);
     }
-    _subscription.Add(subscription);
-  }
+
+    public Name Name { get; private set; }
+    public Documents Document { get; set; }
+    public Email Email { get; private set; }
+    public Address Address { get; private set; }
+
+    public IReadOnlyCollection<Subscription> Subscriptions
+    {
+        get { return _subscription.ToArray(); }
+    }
+
+
+    public void Addsubscription(Subscription subscription)
+    {
+        // se tiver uma assinatura ativa , cancela
+
+        //cancela todas as outras assinatura, e coloca esta como principal
+        foreach (var sub in Subscriptions)
+        {
+            sub.Inactivate();
+        }
+
+        _subscription.Add(subscription);
+    }
 }

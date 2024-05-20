@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "jaPgvxO0V9U8Bwm0Z3DrIC9HmmFI5SWWmMishGDtMSIWnpgznsI8SfxswC/mOvyRUMFIVSmILHvfGDOwYly6mg==",
+  "dgSpecHash": "a9B7RQEE3syFMadq8sLQTHrWsk0RKRb0nkq+KxFvV8lvnuyznbUT3VHtX+xh1leMnauo8cRtrRnuSfRusMF0Hg==",
   "success": true,
   "projectFilePath": "/Users/mizaeldouglasmello/Programação/WorkSpace-DotNet/Balta/curso-balta.io/ModelandoDominiosRicos/PaymentsContext/PaymentsContext.Tests/PaymentsContext.Tests.csproj",
   "expectedPackageFiles": [
     "/Users/mizaeldouglasmello/.nuget/packages/coverlet.collector/6.0.0/coverlet.collector.6.0.0.nupkg.sha512",
+    "/Users/mizaeldouglasmello/.nuget/packages/flunt/2.0.5/flunt.2.0.5.nupkg.sha512",
     "/Users/mizaeldouglasmello/.nuget/packages/microsoft.codecoverage/17.8.0/microsoft.codecoverage.17.8.0.nupkg.sha512",
     "/Users/mizaeldouglasmello/.nuget/packages/microsoft.net.test.sdk/17.8.0/microsoft.net.test.sdk.17.8.0.nupkg.sha512",
     "/Users/mizaeldouglasmello/.nuget/packages/microsoft.testplatform.objectmodel/17.8.0/microsoft.testplatform.objectmodel.17.8.0.nupkg.sha512",

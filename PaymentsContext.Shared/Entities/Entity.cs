@@ -1,6 +1,8 @@
+using Flunt.Notifications;
+
 namespace PaymentsContext.Shared.Entities;
 
-public abstract class Entity
+public abstract class Entity : Notifiable<Notification>
 {
   public Guid Id { get; private set; }
 
